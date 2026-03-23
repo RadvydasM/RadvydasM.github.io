@@ -2,13 +2,13 @@ body {
     margin: 0;
     font-family: "Segoe UI", Arial, Helvetica, sans-serif;
     line-height: 1.6;
-    background-color: #f4f8ff;
-    color: #0a2540;
+    background-color: #0a192f;
+    color: #e6f0ff;
 }
 
 header {
-    background-color: #0a2540;
-    color: white;
+    background-color: #020c1b;
+    color: #e6f0ff;
     padding: 30px 20px;
     text-align: center;
 }
@@ -20,7 +20,7 @@ h1 {
 header p {
     margin-top: 10px;
     font-size: 18px;
-    color: #cfe0ff;
+    color: #a8c1ff;
 }
 
 main {
@@ -31,10 +31,10 @@ section {
     max-width: 800px;
     margin: 0 auto 40px auto;
     font-size: 18px;
-    background: white;
+    background: #112240;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 50, 0.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
 }
 
 .poster {
@@ -46,19 +46,18 @@ section {
 }
 
 a {
-    color: #1d4ed8;
+    color: #4da6ff;
     text-decoration: none;
-    font-weight: 500;
 }
 
 a:hover {
     text-decoration: underline;
-    color: #0a2540;
+    color: #80c1ff;
 }
 
 footer {
-    background-color: #0a2540;
-    color: #cfe0ff;
+    background-color: #020c1b;
+    color: #a8c1ff;
     text-align: center;
     padding: 15px;
     font-size: 14px;
