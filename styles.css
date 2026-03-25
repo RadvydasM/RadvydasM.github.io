@@ -62,3 +62,32 @@ footer {
     padding: 15px;
     font-size: 14px;
 }
+
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.about-text {
+    flex: 2;
+}
+
+.portrait {
+    flex: 1;
+    max-width: 200px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #4da6ff;
+}
+
+@media (max-width: 600px) {
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .portrait {
+        max-width: 150px;
+    }
+}
